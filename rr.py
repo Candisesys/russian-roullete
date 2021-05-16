@@ -4,7 +4,7 @@ import os
 os.system("cls")
 # defining variables and functions
 x = 1
-shoot = input("Are you going to shoot? Type 'y' for Yes, Type anything else for no")
+shoot = input("Are you going to shoot? Type 'y' for Yes, Type anything else for no ")
 # code
 x = random.randint(1,6)
 if shoot == "y":
